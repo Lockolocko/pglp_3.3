@@ -4,18 +4,22 @@
   <artifactId>pglp_3.3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
+ <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ </properties>
  
-  <dependencies>
-<!-- https://mvnrepository.com/artifact/junit/junit -->
-<dependency>
+  
+ <dependencies>
+ <!-- https://mvnrepository.com/artifact/junit/junit -->
+  <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13</version>
     <scope>test</scope>
-</dependency>
-
-</dependencies>
+  </dependency>
+ </dependencies>
 
    <reporting>
       <plugins>

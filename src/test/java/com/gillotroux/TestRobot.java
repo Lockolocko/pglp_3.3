@@ -1,12 +1,14 @@
-import com.gillotroux.Robot;
-import com.gillotroux.RobotType1;
-import com.gillotroux.RobotType2;
+package com.gillotroux;
 
 import java.util.ArrayList;
 
-public class Test{
+import org.junit.Test;
+
+
+
+public class TestRobot{
 	
-	@org.junit.Test
+	@Test
 	public void test(){
 		ArrayList<Robot> robots=new ArrayList<Robot>();
 		robots.add(new RobotType1(5,1));
