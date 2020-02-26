@@ -9,7 +9,7 @@ public class Robot {
 		this.direction=direction;
 	}
 	
-	private void avance(){}
+	public void avance(){}
 	public int getPosition(){
 		return this.position;
 	}

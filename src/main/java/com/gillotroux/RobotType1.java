@@ -5,8 +5,8 @@ public class RobotType1 extends Robot{
 		super(position,direction);
 	}
 	
-	private void avance(){
-		super.position=super.position+(direction*5);
+	public void avance(){
+		super.position=super.position+(direction*10);
 	}
 	
 }
