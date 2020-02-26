@@ -1,8 +1,8 @@
 package com.gillotroux;
 
 public class Robot {
-	private int position;
-	private int direction;
+	protected int position;
+	protected int direction;
 	
 	public Robot(int position,int direction){
 		this.position=position;
