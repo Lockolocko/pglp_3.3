@@ -38,6 +38,13 @@ public class Robot {
         return this.position;
     }
     /**
+     * Set position.
+     * @param position2
+     */
+    public void setPos(final int position2) {
+        this.position = position2;
+    }
+    /**
      * Ascesseur direction.
      * @return direction
      */
