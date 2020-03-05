@@ -1,3 +1,6 @@
+/**
+ * Package de Gillot-Roux
+ */
 package com.gillotroux;
 
 public class RobotType2 extends Robot {
